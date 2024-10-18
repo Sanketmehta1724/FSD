@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Program 2</title>
+  </head>
+  <body>
+    <!--Pratice program-->
+    <table bgcolor="aqua" height="50px" border="2px" width="50%" cellspacing="5" cellpadding="5">
+        <caption>PIZZA SHOP</caption>
+        <tbody>
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name" name="name" maxlength="10" minlength="5" placeholder="Enter your name"/></td>
+            </tr>
+            <tr>
+                <td><label>Toppings</label></td>
+                <td><input type="radio" name="toppings" value="supreme"/>Supreme<br/><input type="radio" name="toppings" value="vegetrain"/>Vegetrain</td>
+            </tr>
+            <tr>
+                <td><label>Extras</label></td>
+                <td><input type="checkbox" name="extras" value="cheese"/>Cheese<br/><input type="checkbox" name="extras" value="others"/>Others</td>
+            </tr>
+            <tr>
+                <td><label>Size</label></td>
+                <td><select name="size">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="big">big</option>
+                </select></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">Comments<br><textarea name="comment" rows="10" cols="20"></textarea></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2"><input type="button" value="order" /><input  type="button"  value="reset"/></td>
+            </tr>
+        </tbody>
+    </table>
+  </body>
+</html>
