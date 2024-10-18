@@ -1,0 +1,96 @@
+<!-- <html>
+    <head></head>
+    <body>
+        <Form action="task3.html" method="get">
+        <fieldset>
+            <legend>SignUp</legend>
+            <label>Name</label>
+            <input type="text" name="fname" required>
+            <br>
+            <label>password</label>
+            <input type="password" name="pw" required>
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </fieldset>            
+        </Form>
+    </body>
+</html> -->
+<html>
+    <head></head>
+    <body>
+        <Form action="task3.html" method="get">
+        <fieldset width="50px">
+            <legend>SignUp</legend>
+            <table>
+                <tr align="right">
+                    <td><input type="Search" placeholder="search"></td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="fname" required placeholder="Enter Name"></td>
+                </tr>
+                <tr>
+                    <td>password</td>
+                    <td><input type="password" name="pw" required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <label><input type="radio" name="gender" value="Male" checked>Male</label>
+                        <input type="radio" name="gender" value="Female">Female
+                        <input type="radio" name="gender" value="Others">Others
+                    </td>
+                </tr>
+                <tr>
+                    <td>Subject</td>
+                    <td>
+                        <label><input type="checkbox" name="subject" value="FSD" checked>FSD</label>
+                        <input type="checkbox" name="subject" value="PS">PS
+                        <input type="checkbox" name="subject" value="DE">DE
+                    </td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td><input type="range" min=0 max=1000 step="100" oninput="num.value=this.value">
+                    <input type="text" disabled id="num"></td>
+                </tr>
+                <tr>
+                    <td>Upload CV</td>
+                    <td><input type="file"></td>
+                    
+                </tr>
+                <tr>
+                   
+                    <td><input type="date" min="2024-10-11"></td>
+                </tr>
+                <tr>
+                    <td><textarea rows="20" cols="20" placeholder="XYZS"></textarea></td>
+                </tr>
+              <tr>
+                <td>
+                    <select>
+                        <option selected hidden>Select area</option>
+                        <optgroup label="Ahemdabad">
+                            <option value="Maninagar">Maninagar</option>
+                            <option value="Bopal">Bopal</option>
+                            <option value="paldi">Paldi</option>
+                        </optgroup>
+                        <optgroup label="Gandhinagar">
+                            <option value="sector1">sector1</option>
+                            <option value="sector2">sector2</option>
+                            <option value="sector3">sector3</option>
+                        </optgroup>
+                    </select>
+                </td>
+              </tr>
+                <tr>
+                    <td><input type="submit"></td>
+                    <td><input type="reset"></td>
+                </tr>
+                
+        </table>
+        </fieldset>            
+        </Form>
+    </body>
+</html>
