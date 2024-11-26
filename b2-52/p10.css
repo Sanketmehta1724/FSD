@@ -1,0 +1,17 @@
+div {
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  background-color: aquamarine;
+}
+img {
+  /* left: 0px;
+  top: 0px; */
+  float: left;
+  z-index: 1;
+}
+h1 {
+  position: relative;
+  color: blue;
+  z-index: 2;
+}

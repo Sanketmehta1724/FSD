@@ -1,0 +1,40 @@
+<!-- write a html and css code to design signup form having fill likes usernames password
+ sports gender,submit and reset buttom follow below requirements 
+ 1.while hovering on username and password its background should turn into yellow and pink respectively
+ 2. while clicking on sports and gender fileds color of text should turn red
+ 3. while hovering on submit and reset button color should turn into blue
+ use appropriate selector to achieve the task-->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="p24.css" type="text/css" rel="stylesheet">
+ </head>
+
+ <body>
+    <form>
+        <fieldset>
+            <legend>signup</legend>
+            <label>Username : </label>
+            <input type="text"  id="textbox">
+            <br><br>
+            <label>Password : </label>
+            <input type="password"  id="textbox">
+            <br><br>
+            <label>Sports  </label>
+           <label class="a"> <input type="checkbox" id="Cricket">Cricket</label>
+           <label class="a">  <input type="checkbox" id="Cricket">Hockey</label>
+            <br><br>
+            <label>gender  </label>
+            <label class="a"><input type="radio" name="gender" id="Cricket">Male</label>
+            <label class="a"><input type="radio" name="gender" id="Cricket">Female</label>
+            <br><br>
+            <input class="b" type="submit" value="submit">
+            <input class="b" type="reset" value="reset">
+        </fieldset>
+    </form>
+ </body>
+ </html>

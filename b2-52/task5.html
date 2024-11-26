@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        position: absolute;
+        border-radius: 100%;
+        border: 2px solid blue;
+        text-align: center;
+        padding-top: 5px;
+        height: 40px;
+        width: 40px;
+        animation-name: hello;
+        animation-duration: 5s;
+        animation-direction: normal;
+        animation-iteration-count: 5;
+      }
+      @keyframes hello {
+        0% {
+          top: 0%;
+          left: 0%;
+        }
+        50% {
+          top: 70%;
+          left: 50%;
+          transform: rotate(180deg);
+        }
+        100% {
+          top: 0%;
+          left: 70%;
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>hii</div>
+  </body>
+</html>

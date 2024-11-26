@@ -1,0 +1,38 @@
+.a{
+    background-color: pink;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-family:Arial",serif;
+}
+.b{
+    background-color: lightblue;
+    text-decoration:  line-through green 1px;
+    text-transform: lowercase;
+    /* letter-spacing: 10px; */
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+.c{
+    text-indent: 20px;
+    text-decoration: overline;
+    text-transform: initial;
+    /* letter-spacing: 20; */
+    font-style: italic;
+    
+}
+.d{
+    text-align: center;
+    text-decoration: underline dotted;
+    text-transform: capitalize;
+    /* letter-spacing: -5px; */
+    font-weight: bold;
+
+}
+.e{
+    text-align: justify ;
+    text-transform: none;
+    /* letter-spacing: -10em; */
+    font-variant: small-caps;
+
+}

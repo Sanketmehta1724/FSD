@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        height: 200px;
+        width: 300px;
+        float: left;
+        border: 1px solid blue;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        transition-property: transform;
+        transition-duration: 2s;
+      }
+      .p1:hover {
+        background-image: linear-gradient(red, blue, tomato);
+        transform: rotate(50deg);
+      }
+      .p2:hover {
+        text-align: center;
+        background-image: linear-gradient(to right, red, blue, tomato);
+        transform: rotateX(180deg);
+      }
+      .p3:hover {
+        background-image: linear-gradient(to bottom, red, blue, tomato);
+        transform: rotateY(180deg);
+      }
+      .p4:hover {
+        background-image: linear-gradient(-30deg, red, blue, tomato);
+        transform: skew(20deg, 150deg);
+      }
+      .p5:hover {
+        background-image: linear-gradient(red 10%, blue 40%, tomato 50%);
+        transform: scale(2, 0.5);
+      }
+      .p6:hover {
+        background-image: repeating-linear-gradient(
+          red 10%,
+          blue 20%,
+          tomato 20%
+        );
+        transform: scaleX(2);
+      }
+      .p7:hover {
+        background-image: repeating-linear-gradient(
+          red 10%,
+          blue 20%,
+          tomato 20%
+        );
+        transform: scaleY(2);
+      }
+      .p8:hover {
+        background-image: repeating-linear-gradient(
+          red 10%,
+          blue 20%,
+          tomato 20%
+        );
+        transform: translate(50px, 100px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="p1">linear Gradient 1</div>
+    <div class="p2">linear Gradient 2</div>
+    <div class="p3">linear Gradient 3</div>
+    <div class="p4">linear Gradient 4</div>
+    <div class="p5">linear Gradient 5</div>
+    <div class="p6">linear Gradient 6</div>
+    <div class="p7">linear Gradient 7</div>
+    <div class="p8">linear Gradient 8</div>
+  </body>
+</html>

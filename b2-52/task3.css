@@ -1,0 +1,30 @@
+.p1 {
+  width: 60%;
+  height: 100%;
+  border: 5px solid black;
+  float: left;
+}
+.p1 h1 {
+  text-align: center;
+}
+
+.p1 img {
+  float: right;
+}
+.p2 {
+  margin: 0px;
+  padding: 0px;
+  width: 40%;
+  height: 100%;
+  border-style: dotted dashed double dashed;
+  float: right;
+}
+.p2 h1 {
+  text-align: center;
+}
+.p2 img {
+  float: left;
+}
+.p0 {
+  display: flex;
+}

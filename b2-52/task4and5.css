@@ -1,0 +1,16 @@
+tr{
+    transition-property: transform;
+    transition-duration: 5s;
+}
+tr:hover{
+    transform: scaleX(1.5);
+    background-color:tomato;
+    color: cyan;
+}
+tr.row1:hover{
+    font-size: 20px;
+    font-style: italic;
+}
+tr.row5:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,12 @@
+input[type=text]:hover{
+    background-color: yellow;
+}
+input[type=password]:hover{
+    background-color: pink;
+}
+.a:active{
+    color:red
+}
+.b:hover{
+    color:blue
+}

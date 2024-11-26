@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        position: absolute;
+        text-align: center;
+        /* padding-top: 5px; */
+
+        animation-name: hello;
+        animation-duration: 5s;
+        animation-direction: alternate;
+        animation-iteration-count: 5;
+        font-weight: bold;
+        font-size: 50px;
+        margin-top: 5px;
+      }
+
+      @keyframes hello {
+        0% {
+          top: 0%;
+          left: -100%;
+        }
+
+        100% {
+          top: 0%;
+          left: 100%;
+          /* transform: rotate(360deg); */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      Sale..Sale..Sale <br />
+      fatafat aavo
+    </div>
+  </body>
+</html>

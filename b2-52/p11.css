@@ -1,0 +1,17 @@
+.p1 {
+  display: none;
+}
+.p2 {
+  display: inline;
+  color: tomato;
+  height: 32px;
+}
+.p3 {
+  display: block;
+  color: tomato;
+}
+.p4 {
+  display: inline-block;
+  color: tomato;
+  height: 32px;
+}

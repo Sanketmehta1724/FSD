@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        ::selection{
+            color: green;
+            background-color: yellow;
+        }
+      p::before {
+        content: "######";
+      }
+      p::after {
+        content: "######";
+      }
+      li::marker {
+        color: red;
+      }
+      .a1 li::marker {
+        content: "#";
+      }
+      h5::first-letter {
+        font-size: xx-large;
+      }
+      h6::first-letter {
+        font-size: xx-large;
+      }
+      h6::first-line {
+        font-size: medium;
+      }
+    </style>
+  </head>
+  <body>
+    <center><h1>Psuedo Elements</h1></center>
+    <h1>after and before</h1>
+    <p>
+      ...5 times "#" Applied after and before content of h3 tag syntax
+      h3::before{content:"#####"}...
+    </p>
+    <h1>Marker effect</h1>
+    <ul>
+      <li>Abc</li>
+      <li>pqr</li>
+      <li>xyz</li>
+    </ul>
+    <ol>
+      <li>Abc</li>
+      <li>pqr</li>
+      <li>xyz</li>
+    </ol>
+    <ul class="a1">
+      <li>Add attribute content:"#" in ::marker</li>
+
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JAVASCRIPT</li>
+    </ul>
+    <h5>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, pariatur
+      rerum ea soluta sed in, unde corporis numquam id maxime labore nobis
+      deleniti molestias necessitatibus odio dicta perferendis dolorum eum
+      dolorem. Amet nobis inventore nesciunt provident nulla rem saepe
+      distinctio odit, sit enim eligendi quos dolorem necessitatibus cumque
+      alias? Laborum cum quasi officia excepturi quisquam veritatis mollitia
+      dignissimos nam repudiandae dolorem accusamus ut, adipisci iste aut
+      voluptate numquam nulla itaque, quibusdam ipsam illum sed. Magnam officia
+      quisquam ipsam enim vitae, quaerat cum nihil sequi obcaecati eius ex
+      commodi culpa. Blanditiis quasi soluta autem assumenda dolor veniam sint
+      similique, asperiores dolores veritatis fugit ad placeat iusto sit optio
+      beatae velit voluptatum officiis est rem repellendus accusantium deleniti
+      eos! Quibusdam consectetur ad molestias praesentium necessitatibus error
+      aspernatur distinctio vel voluptatum. Qui sapiente nam voluptatem quas
+      porro possimus in fuga earum, aut delectus laudantium dolores et.
+      Obcaecati sequi quisquam adipisci ratione facere. Assumenda, ratione,
+      consequuntur ipsam unde at id voluptatem illum molestiae quibusdam maiores
+      corrupti architecto soluta. Quam aspernatur soluta accusantium, quasi
+      facere, consequatur, ex nemo eum culpa quia similique autem ipsam tempore
+      modi odio? Facilis culpa, incidunt quaerat placeat nostrum illo inventore
+      cupiditate consequatur hic vitae, totam officiis fugiat aperiam
+      praesentium soluta!
+    </h5>
+    <h6>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit
+      voluptatum ut asperiores non quaerat eum illo vero eligendi est eaque vel
+      aspernatur consequuntur, temporibus mollitia voluptatibus, excepturi vitae
+      voluptate ipsum assumenda dignissimos, nostrum delectus. Consectetur
+      ducimus tenetur necessitatibus minus iure ipsa, nobis quaerat reiciendis
+      similique a, quibusdam impedit, vero rem natus quis. Repudiandae ipsa iste
+      sit natus autem quisquam saepe nam quis perspiciatis ipsum quasi, incidunt
+      exercitationem dicta assumenda nemo molestias nihil debitis dignissimos
+      corporis? Magni voluptas dicta eius error minima nemo non voluptatum autem
+      ea minus rem maxime, illum expedita doloremque molestias omnis porro,
+      inventore aliquid nobis? Vero dolor nulla ratione similique laudantium
+      blanditiis tempore alias necessitatibus tenetur minima, dolorem nisi,
+      incidunt rerum commodi quae porro in? Sapiente, saepe enim. Quasi
+      reprehenderit repudiandae explicabo pariatur aspernatur quas
+      necessitatibus aliquam nisi, et aliquid voluptatum voluptates ad ea libero
+      asperiores corporis suscipit? Perferendis dolor numquam, vero quasi sed
+      modi suscipit quos nostrum ipsa eveniet a ipsum ratione quod sit veniam
+      doloremque officiis. Provident dolor sequi omnis modi ipsum, minus placeat
+      nulla recusandae, rerum impedit eligendi quia odio officiis facere, eius
+      possimus a. Architecto fugit eum fuga qui ullam. Enim commodi nisi,
+      veritatis culpa sed rerum saepe dolores consectetur eaque quam.
+    </h6>
+  </body>
+</html>
